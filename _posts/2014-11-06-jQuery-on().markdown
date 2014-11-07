@@ -47,7 +47,16 @@ $(selector).on(event,childSelector,data,function,map)
 
  **events-map**：{}名值对；名是一个或多个空格分隔的事件类型和可选的命名空间，值为事件被触发时用来处理的函数。
 
- ### 参数data
+### 参数data
+当event.data特性被使用的时候，这是非常有用的，或者其它独特的数据驻留在事件处理函数的closure（闭包）中。例如
+ 
+function greet(event) { alert("Hello "+event.data.name); }
+$("button").on("click", { name: "Karl" }, greet);
+$("button").on("click", { name: "Addy" }, greet);
+ 
+当按钮被点击的时候，上面的代码将产生两个不同的alerts。
+
+
  data参数是作为一种补充添加在.on()方法上的，你也可以在trigger或者triggerHandler使用第二个参数传递数据给一个event handler。
 
 ## 参考
