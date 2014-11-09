@@ -1,10 +1,9 @@
 ---
-layout: post  
-title:CSS3 backgrounds  
+layout: post
+title: CSS3 backgrounds  
 date: 2014-11-09  
 categories: jekyll update
 ---
-
 ## 前言
 * background-color
 * background-image
@@ -26,7 +25,7 @@ background-Origin属性指定了**背景图像的位置区域**。
 
 content-box, padding-box,和 border-box区域内可以放置背景图像。
 
-![background-origin.gif](../images/background-origin.gif)
+![background-origin.gif](../../../../../images/background-origin.gif)
 
 
 ### CSS3 background-clip 属性 -- 规定背景图片的定位区域
