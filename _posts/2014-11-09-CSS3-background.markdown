@@ -19,6 +19,8 @@ CSS3中可以指定背景图片，让我们重新在不同的环境中指定背�
 
 你指定的大小是相对于父元素的宽度和高度的百分比的大小。
 
+语法： background-size: length | percentage | cover | contain;
+
 
 ### CSS3的background-Origin属性 -- 规定背景的绘制区域
 background-Origin属性指定了**背景图像的位置区域**。
