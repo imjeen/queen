@@ -2,7 +2,7 @@
 layout: post
 title: CSS3伪元素::section
 date: 2014.11.12
-categories: jekyll upadate
+categories: jekyll update
 ---
 
 ## 前言
