@@ -51,3 +51,4 @@ categories: update
 1. [JavaScript Key Codes](http://shikargar.wordpress.com/2010/10/27/javascript-key-codes/)
 2. [javascript keycodes 键盘键值](http://note.rpsh.net/posts/2011/06/08/javascript-keycodes)
 3. [为什么 keypress 事件和 keydown/keyup 事件的 keycode 不一样？](http://segmentfault.com/q/1010000000733450)
+4. [JavaScript Madness: Keyboard Events](http://unixpapa.com/js/key.html)
