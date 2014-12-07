@@ -34,12 +34,13 @@ DOM的事件传播有两个类型，一个是捕获（从父节点到子节点�
 
 ### form表单里的return false
 onsubmit属性,默认返回true；
-``
-//添加 方法submitTest(),能正常提交,不管submitTes()是否return false
-<form action="index.jsp" method="post" onsubmit="submitTest();;">
-//覆写 onsubmit，submitTest()的return false致使表单无法提交
-<form action="index.jsp" method="post" onsubmit="return submitTest();;"> 
-``
+
+    //添加 方法submitTest(),能正常提交,不管submitTes()是否return false
+    <form action="index.jsp" method="post" onsubmit="submitTest();;">
+    
+    //覆写 onsubmit，submitTest()的return false致使表单无法提交
+    <form action="index.jsp" method="post" onsubmit="return submitTest();;"> 
+
 
 ## 参考
 * [jQuery return false](http://www.berlinix.com/js/jquery-return-false.php)
